@@ -4,5 +4,5 @@ export enum Network {
 }
 
 export interface CallbackHandle {
-  (arg1: string, arg2: any): void;
+  (arg1: any, arg2: any): void;
 }
